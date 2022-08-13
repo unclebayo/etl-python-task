@@ -26,5 +26,12 @@ I considered working with the data in CSV instead of the .json format in came wi
 Note that, at this stage, I noticed some of the tables do not have headers which were tricky at this point. So I manually assigned headers to this data as at the point of moving from source to staging.
 
 In moving the data from source to staging, the following were considered:
- 1. I want the data the way it is without any transformation or changes at this point
- 2. I implemented a "TRUNCATE TABLE" query to always empty the table first before loading whenever the ETL pipeline runs (FULL REPLICATION)
+ 1. I want the data the way it is without any transformation or changes at this point 
+ 2. The only change done was the file format: json to csv which allowed for easily manipulation for the data without column headers
+ 3. I implemented a "TRUNCATE TABLE" query to always empty the table first before loading whenever the ETL pipeline runs (FULL REPLICATION)
+
+In my code base, I wrote two functions to get the data from the source, 
+  a. def data_without_header (for continents, countries.3to2, countries.2to3)
+  b. def data_with_header (for all other tables)
+  
+## Explaining the code
