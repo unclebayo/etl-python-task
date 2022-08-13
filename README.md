@@ -18,4 +18,12 @@
 
 ## Approach
 ##### The below shows a step-step of how this prject was started and ended
-For the sake of this task, we will be a
+This task is considered to be a full-on ETL task involving moving data from the source to a staging environment and finally to a production database (warehouse). 
+
+For the sake of this task, we will first be getting the data from the Github directly via an API which we then read using Pandas DataFrame. This will read all the tables the way they are without doing any form of change or transaformation.
+I considered working with the data in CSV instead of the .json format in came with. Hence, I moved the data from the original .json source to a STAGING environment (.stg, _stg extensions in the code base).
+Note that, at this stage, I noticed some of the tables do not have headers which were tricky at this point. So I manually assigned headers to this data as at the point of moving from source to staging.
+
+In moving the data from source to staging, the following were considered:
+ 1. I want the data the way it is without any transformation or changes at this point
+ 2. I implemented a "TRUNCATE TABLE" query to always empty the table first before loading whenever the ETL pipeline runs (FULL REPLICATION)
