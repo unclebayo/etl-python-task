@@ -18,3 +18,4 @@
 
 ## Approach
 ##### The below shows a step-step of how this prject was started and ended
+For the sake of this task, we will be a
