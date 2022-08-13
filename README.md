@@ -14,6 +14,7 @@
 2. Docker
 
 ## Architecture
+![etl-task drawio](https://user-images.githubusercontent.com/62335314/184490004-001f4248-4fb1-4622-9da2-f30b34a673af.png)
 
 
 ## Approach
