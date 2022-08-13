@@ -14,3 +14,7 @@
 2. Docker
 
 ## Architecture
+
+
+## Approach
+##### The below shows a step-step of how this prject was started and ended
