@@ -53,6 +53,11 @@ This approach was used for all tables except "CURRENCY". This is because there i
  5. After confirming with no errors that the table has been created, go back to VS Code and on the terminal, run "python etl_script_py"
 
 
+### SCREENSHOTS - TASK RESULTS
+
+![Screenshot (9)](https://user-images.githubusercontent.com/62335314/184510995-5842bc92-4971-4a60-a7e3-ed50d3584fba.png)
+![Screenshot (10)](https://user-images.githubusercontent.com/62335314/184511005-14441fc3-495a-4faa-8a9c-e1e00a27d636.png)
+![Screenshot (11)](https://user-images.githubusercontent.com/62335314/184511010-a91418e3-6244-406c-aecd-57e51213385b.png)
 
 
   
